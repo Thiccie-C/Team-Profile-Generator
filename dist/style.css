@@ -1,12 +1,47 @@
-.engineer{
-
+* {
+    box-sizing: border-box;
 }
-.Employee{
-    
-}
-.Manager{
 
+:root {
+    --primary: rgb(91,12,153);
+    --secondary: rgba(255, 166, 0, 0.986);
+    --secondary-background: linear-gradient(rgba(91,12,153,1) 0%, rgba(250,254,124,1) 100%);
 }
-.Intern{
 
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#navbar {
+    background-color: var(--secondary);
+    background: var(--secondary-background);
+    color: var(--secondary);
+    font-size: 50px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+}
+
+.card-header {
+    background: var(--secondary-background);
+    color: white;
+}
+
+.card-body {
+    background-color: var(--secondary);
+    color: var(--primary);
+}
+.card-body p {
+    border: 1px black solid;
+    background-color: white;
+}
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(75,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.container {
+    margin: 100px auto;
+    justify-content: space-evenly;
+    display: flex;
 }
